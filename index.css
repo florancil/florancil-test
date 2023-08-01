@@ -3,14 +3,26 @@
   color: black;
 }
 
-body {
+.container {
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  align-items: end;
   margin-right: 30px;
   margin-left: 30px;
-  margin-top: 0
+  margin-top: 0;
+  height: 100vh
 }
+
+.main-body {
+  display: grid;
+  align-items: center;
+}
+
+.extra, 
+.florancil {
+  display: grid;
+  align-items: end;
+}
+
 
 p {
   display: inline-block;

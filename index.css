@@ -7,7 +7,6 @@ body {
   display: grid;
   grid-template-columns: 30% 40% 30%;
   align-items: end;
-  min-height: 100%;
   margin-right: 30px;
   margin-left: 30px;
 }
@@ -22,7 +21,9 @@ p {
   text-align: end;
 }
 
-ul {
+.list {
+  display: flex;
+  flex-direction:column;
   padding-left: 0;
   font-size: 2rem;
   margin-top: 5rem
@@ -33,14 +34,9 @@ ul {
   margin-right: 1.5rem;
 }
 
-li {
-  list-style: none;
-}
-
-
 .intro-text {
   font-size: 3rem;
-  margin: 0;
+  margin:0;
 }
 
 .hero-img {

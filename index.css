@@ -9,6 +9,7 @@ body {
   align-items: end;
   margin-right: 30px;
   margin-left: 30px;
+  margin-top: 0
 }
 
 p {
@@ -53,8 +54,8 @@ p {
 @media screen and (max-width: 428px)
 {
   body {
-    margin-top: 50%;
     grid-template-columns: 10% 80% 10%;
+    height:fit-content
   }
   
   
